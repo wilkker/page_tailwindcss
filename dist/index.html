@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page</title>
+    <link rel="stylesheet" href="/src/output.css">
+
+</head>
+<body class="bg-gray-70 h-screen w-screen   mx-auto overflow-x-hidden flex flex-col" >
+
+    <!-- header -->
+    <div class="">
+        <div class="container max-w-5xl   mx-auto  h-24  p-4 flex items-center   justify-between">
+            <div class="font-black">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 h-16">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m20.893 13.393-1.135-1.135a2.252 2.252 0 0 1-.421-.585l-1.08-2.16a.414.414 0 0 0-.663-.107.827.827 0 0 1-.812.21l-1.273-.363a.89.89 0 0 0-.738 1.595l.587.39c.59.395.674 1.23.172 1.732l-.2.2c-.212.212-.33.498-.33.796v.41c0 .409-.11.809-.32 1.158l-1.315 2.191a2.11 2.11 0 0 1-1.81 1.025 1.055 1.055 0 0 1-1.055-1.055v-1.172c0-.92-.56-1.747-1.414-2.089l-.655-.261a2.25 2.25 0 0 1-1.383-2.46l.007-.042a2.25 2.25 0 0 1 .29-.787l.09-.15a2.25 2.25 0 0 1 2.37-1.048l1.178.236a1.125 1.125 0 0 0 1.302-.795l.208-.73a1.125 1.125 0 0 0-.578-1.315l-.665-.332-.091.091a2.25 2.25 0 0 1-1.591.659h-.18c-.249 0-.487.1-.662.274a.931.931 0 0 1-1.458-1.137l1.411-2.353a2.25 2.25 0 0 0 .286-.76m11.928 9.869A9 9 0 0 0 8.965 3.525m11.928 9.868A9 9 0 1 1 8.965 3.525" />
+                  </svg>
+                  
+            </div>
+
+            <!-- Menu responsivo para telas pequenas -->
+            <!-- em construção o meu responsivo -->
+            <!-- <div class="block sm:hidden">
+                <button id="burgerBtn" class="text-gray-600 focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div> -->
+
+            <ul class=" space-x-3 flex items-center " >
+                <li >
+                    <a href="" class="text-sm p-2 text-gray-600 hover:text-gray-800 hidden sm:block hover:border hover:rounded-full hover:border-orange-500">Como reservar</a>
+                </li>
+                <li >
+                    <a href="" class="text-sm p-2 text-gray-600 hover:text-gray-800 hidden sm:block hover:border hover:rounded-full hover:border-orange-500">Quem Somos</a>
+                </li>
+                <li >
+                    <a href="" class="text-sm p-2 text-gray-600 hover:text-gray-800 hover:border hover:rounded-full hover:border-orange-500">Informações</a>
+                </li>
+                <li >
+                    <a href="" class="text-sm p-2 text-gray-600 hover:text-gray-800 hover:border hover:rounded-full hover:border-orange-500">Contatos</a>
+
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- /header -->
+
+    <!--banner  -->
+    <div class="h-96 bg-center  bg-cover " style="background-image: url('/src/img/deserto.jpg');">
+        <div class="w-full h-full  mx-auto p-4 bg-black/60  flex flex-col  items-center justify-center  text-white">
+            <div class="container mx-auto p-4 h-24 flex flex-col  items-center justify-center  text-white text-center space-y-2">
+                <h1 class="text-gray-200 text-3xl sm:text-4xl">Onde você quer ir?</h1>
+                <p class="text-white">Escolha o Destino Que Mais Combina Com Você
+                </p>
+            </div>
+            
+            <div class="container max-w-5xl mx-auto p-4 h-24 flex flex-col  items-center justify-center  text-white text-center space-y-2 ">
+             <form action="" class=" grid grid-cols-2 gap-4 sm:grid-cols-3">
+                <select name="" id="" class="px-3 py-2 text-gray-500 rounded border border-orange-300 focus:border-l-2 focus:border-orange-500 focus:border-b-2" >
+                    <option value="">Escolha o País</option>
+                </select>
+
+                <select name="" id="" class="px-3 py-2 text-gray-500 rounded border border-orange-300 focus:border-l-2 focus:border-orange-500 focus:border-b-2" >
+                    <option value="">Escolha a Cidade</option>
+                </select>
+
+
+                <button class=" col-span-2 px-3 py-2 sm:col-span-1 text-white rounded bg-orange-500 font-medium items-center justify-center inline-flex hover:bg-orange-700 transition duration-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 inline-block mr-2">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                    </svg>
+                    Pesquisar Locais
+                </button>
+             </form>
+
+            </div>
+        </div>
+    </div>
+     <!--/banner  -->
+
+
+    <!-- featured destaques -->
+     <div class="sm:h-96">
+        <div class="container  max-w-5xl   mx-auto p-4 py-10  grid grid-rows-2 gap-2 sm:grid-rows-1  sm:grid-cols-2  ">
+            <div class=" flex   flex-col space-y-2 order-2 sm:order-1">
+                <div class="space-y-1">
+                    <h4 class=" text-sm font-medium text-gray-500">DESTINO EM DESTAQUE</h4>
+                    <h2 class="text-2xl font-medium text-gray-600">Vulcões na Islândia</h2>
+                    <h4 class="text-sm font-medium text-gray-500"> Descubra os Vulcões da Islândia com Nossas Jornadas Inesquecíveis!"</h4>
+                </div>
+            
+      
+                <div class="text-sm font-medium text-gray-500 space-y-3">
+                    <p>Desperte o aventureiro em você e mergulhe na imensidão mágica dos vulcões islandeses. Explore a majestade da natureza crua, testemunhe espetáculos celestiais e crie memórias que ecoarão para sempre.  </p>
+
+                    <p>Sua aventura aguarda - embarque conosco rumo ao coração da terra! 🔥❄️ <br>#VulcõesNaIslândia #NaturezaSelvagem #AventuraInesquecível</p>
+                </div>
+
+           
+                <button class="bg-orange-500 text-black w-44 rounded px-4 py-2 font-medium text-sm  mb-4 inline-block hover:text-white">Solicitar reserva
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 inline-flex">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                      </svg>
+                </button>
+
+                        
+                    
+            </div>
+            <div class="bg-cover bg-center hover:scale-105 duration-700  order-1  " style="background-image: url('/src/img/vulcao.jpg'); width:100%"  >
+                    <div class=" w-full h-full bg-cover bg-center opacity-0 hover:opacity-100 duration-700 " style="background-image: url('/src/img/islandia2.jpg');">
+                    </div>
+            </div> 
+  
+        </div>
+    </div>
+     <!-- /featured destaques -->
+
+     <!-- grid -->
+     <div class=" ">
+        <div class="container  max-w-5xl   mx-auto p-4 py-10  h-96 ">
+                <h3 class="mb-10 text-2xl m-auto text-center text-gray-600 font-bold">Conheça mais Locais</h3>
+                <div class="w-full  h-full grid grid-cols-4 grid-rows-2 gap-4    ">
+                    
+                    <div class="w-full h-full col-span-2 row-span-2 flex-shrink-0 shadow-md rounded transition-transform transform hover:scale-105 duration-700 bg-cover"  style="background-image: url('/src/img/petra.jpg');">
+
+                        <div class="w-full h-full  opacity-0 hover:opacity-100 transition-opacity duration-500 flex flex-col items-center justify-end" style="background: linear-gradient(to top, black, transparent);">
+                            <h4 class="text-white text-2xl mb-4">Cidade de Petra na Jordânia</h4>
+                        </div>
+                    </div>
+                
+                    <div class=" w-full h-full col-span-2 rounded overflow-hidden flex-shrink-0 transition-transform transform hover:scale-105 duration-700 bg-cover bg-center" style="background-image: url('/src/img/aurora-1185466.jpg');">
+                        <div class="w-full h-full  opacity-0 hover:opacity-100 transition-opacity duration-500 flex flex-col items-center justify-end" style="background: linear-gradient(to top, black, transparent);">
+                            <h4 class="text-white text-2xl mb-4">Aurora Boreal no canadá</h4>
+                        </div>
+                    </div>
+
+                    <div class=" w-full h-full  rounded overflow-hidden flex-shrink-0 transition-transform transform hover:scale-105 duration-700 bg-cover bg-center" style="background-image: url('/src/img/Topo-Monte-Roraima.jpg');">
+                        
+                        <div class="w-full h-full  opacity-0 hover:opacity-100 transition-opacity duration-500 flex flex-col items-center justify-end" style="background: linear-gradient(to top, black, transparent);">
+                            <h6 class="text-white text-md mb-4">Monte Roraima Brazil</h6>
+                        </div>
+                    </div>
+
+                    <div class=" w-full h-full rounded overflow-hidden flex-shrink-0 transition-transform transform hover:scale-105 duration-700 bg-cover bg-center" style="background-image: url('/src/img/peoples-republic-of-china-6036774.jpg');">
+                        <div class="w-full h-full  opacity-0 hover:opacity-100 transition-opacity duration-500 flex flex-col items-center justify-end" style="background: linear-gradient(to top, black, transparent);">
+                            <h6 class="text-white text-md mb-4">Portal do céu Na China</h6>
+                        </div>
+                    </div>
+             
+                </div>
+        </div>
+     </div>
+     <!-- /grid -->
+
+
+     <!-- form search -->
+     <div class="mt-4">
+        <div class="container  max-w-5xl   mx-auto p-4 h-24 mt-8  items-center justify-center  text-white text-center space-y-2">
+            <div class="container  p-4 h-24 flex flex-col  items-center justify-center  text-white text-center space-y-2 ">
+                <form action="" class=" grid grid-cols-2 gap-4 sm:grid-cols-3">
+                   <select name="" id="" class="px-3 py-2 text-gray-500 rounded border border-orange-300 focus:border-l-2 focus:border-orange-500 focus:border-b-2 hover:bg-orange-200  hover:text-black" >
+                       <option value="">Escolha o País</option>
+                   </select>
+   
+                   <select name="" id="" class="px-3 py-2 text-gray-500 rounded border border-orange-300 focus:border-l-2 focus:border-orange-500 focus:border-b-2 hover:bg-orange-200  hover:text-black" >
+                       <option value="">Escolha a Cidade</option>
+                   </select>
+   
+   
+                   <button class=" col-span-2 px-3 py-2 sm:col-span-1 text-white rounded bg-orange-500 font-medium items-center justify-center inline-flex hover:bg-orange-700 transition duration-500">
+                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 inline-block mr-2">
+                           <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                       </svg>
+                       Pesquisar Locais
+                   </button>
+                </form>
+           </div>
+     </div>
+     <!-- / form search -->
+
+
+     <!-- footer -->
+     <div class=" border-t-2 mt-12">
+        <div class="container   max-w-5xl   mx-auto h-24  p-4 flex items-center   justify-between ">
+            <div class="font-black">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 h-16">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m20.893 13.393-1.135-1.135a2.252 2.252 0 0 1-.421-.585l-1.08-2.16a.414.414 0 0 0-.663-.107.827.827 0 0 1-.812.21l-1.273-.363a.89.89 0 0 0-.738 1.595l.587.39c.59.395.674 1.23.172 1.732l-.2.2c-.212.212-.33.498-.33.796v.41c0 .409-.11.809-.32 1.158l-1.315 2.191a2.11 2.11 0 0 1-1.81 1.025 1.055 1.055 0 0 1-1.055-1.055v-1.172c0-.92-.56-1.747-1.414-2.089l-.655-.261a2.25 2.25 0 0 1-1.383-2.46l.007-.042a2.25 2.25 0 0 1 .29-.787l.09-.15a2.25 2.25 0 0 1 2.37-1.048l1.178.236a1.125 1.125 0 0 0 1.302-.795l.208-.73a1.125 1.125 0 0 0-.578-1.315l-.665-.332-.091.091a2.25 2.25 0 0 1-1.591.659h-.18c-.249 0-.487.1-.662.274a.931.931 0 0 1-1.458-1.137l1.411-2.353a2.25 2.25 0 0 0 .286-.76m11.928 9.869A9 9 0 0 0 8.965 3.525m11.928 9.868A9 9 0 1 1 8.965 3.525" />
+                  </svg>
+            </div>
+            <div class="flex space-x-2 items-center">
+                <a target="_blank" href="https://github.com/wilkker"><img src="/src/img/placa-do-github.png" alt="icone do github" class=" w-6 hover:bg-orange-300"></a>
+                <a target="_blank" href="https://www.linkedin.com/in/wilker-kennedy-8b763090/"><img src="/src/img/logotipo-do-linkedin.png"  alt="icone do linkedin" class="w-6 hover:bg-orange-300"></a>
+            </div>
+      
+            
+        </div>
+    </div>
+     <!-- /footer -->
+
+
+
+
+
+
+    
+</body>
+</html>
